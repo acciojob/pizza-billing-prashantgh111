@@ -10,7 +10,7 @@ public class Pizza {
     private int cheesePrice;  // its fixed in Discription(Optional)
     private int toppingPrice;
     private int paperBagPrice; // (optional)
-    private int bestPriceOfPizza;
+    //private int bestPriceOfPizza;
 
     private boolean isCheeseAdded;
     private boolean isToppingAdded;
@@ -34,9 +34,9 @@ public class Pizza {
         }
          this.cheesePrice=80; // same for both
          this.paperBagPrice=20; // (optional) u can add it directly fixed price is 20
-         this.bestPriceOfPizza=price;
+         //this.bestPriceOfPizza=price;
          this.bill="";
-        //this.bill+="Base Price Of The Pizza:"+this.price+"\n";
+        this.bill+="Base Price Of The Pizza: "+this.price+"\n";
     }
 
     public int getPrice(){
@@ -48,14 +48,14 @@ public class Pizza {
     public void addExtraCheese(){
         if(!isCheeseAdded){
             this.price+=cheesePrice;
-            this.isCheeseAdded=true;
+            isCheeseAdded=true;
         }
     }
 
     public void addExtraToppings(){
         if(!isToppingAdded){
             this.price+=toppingPrice;
-            this.isToppingAdded=true;
+            isToppingAdded=true;
         }
     }
 
@@ -63,7 +63,7 @@ public class Pizza {
         if(!isTakeAwayAdded) {
             //this.price+=20;
             this.price += paperBagPrice;
-            this.isTakeAwayAdded=true;
+            isTakeAwayAdded=true;
         }
     }
 
@@ -76,7 +76,7 @@ public class Pizza {
             //this.bill+="Base Price Of The Pizza:"+this.price;
             // ->this.price karoge to ye change go gayi hai total price milegi. so aapko given ouput format print karna hai to aap base price ko kisi
             // variable me store karke usko yaha add kar sakte ho.
-            this.bill += "Base Price Of The Pizza:" + this.bestPriceOfPizza+"\n";   //other wise app constructor me likho;
+           // this.bill += "Base Price Of The Pizza:" + this.bestPriceOfPizza+"\n";   //other wise app constructor me likho;
             // if person ask for extra cheese then only price added in bill
             if(isCheeseAdded){
                 this.bill+="Extra Cheese Added: "+this.cheesePrice+"\n";
@@ -89,7 +89,7 @@ public class Pizza {
                 this.bill+="Paperbag Added: "+this.paperBagPrice+"\n";
             }
             this.bill+="Total Price: "+this.price+"\n";
-            this.isBillGenerate=true;
+            isBillGenerate=true;
         }
         return this.bill;
     }

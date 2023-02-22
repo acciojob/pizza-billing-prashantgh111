@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03ffb351-9e11-47bb-9847-899919d8d516" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/driver/DeluxePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/driver/DeluxePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/driver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/driver/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/driver/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/driver/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/driver/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/driver/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/driver/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/driver/Pizza.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
